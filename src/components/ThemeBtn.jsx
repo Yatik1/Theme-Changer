@@ -18,8 +18,8 @@ function ThemeBtn() {
     <label className='relative inline-flex items-center cursor-pointer'>
         <input 
           type="checkbox"
-          value=""
           className='sr-only peer'
+          value=""
           onChange={onChangeBtn} 
           checked={themeMode === 'dark'}
          />
